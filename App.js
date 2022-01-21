@@ -5,22 +5,17 @@
  * @format
  * @flow strict-local
  */
-import React from 'react';
-import { View,Text,StyleSheet, FlatList} from 'react-native';
-
-import BottomComponent from './Component/BottomComponent';
-import TopComponent from './Component/TopComponent';
-
+import React, { Fragment } from 'react';
+import Emoji from './Component/Emoji';
 
 const App= () => {
 
 
   return (
-    <>
-        <TopComponent/>
-        <BottomComponent/>
-    </>
-
+    <Fragment>
+     <Emoji/>
+    </Fragment>
+   
   );
 };
 
